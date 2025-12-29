@@ -381,7 +381,7 @@ import { useContext } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 
 
-const server_url = "http://localhost:8000";
+const server_url = server.prod;
 
 var connections = {};
 
