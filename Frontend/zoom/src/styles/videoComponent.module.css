@@ -62,3 +62,16 @@
      margin-top: 10px;
 
 }
+.videoRow {
+  display: flex;
+  flex-wrap: nowrap;       /* Keep all videos in one row */
+  overflow-x: auto;        /* Scroll horizontally if too many videos */
+  gap: 10px;
+  padding: 10px;
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
